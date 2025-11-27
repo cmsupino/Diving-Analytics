@@ -1,0 +1,10 @@
+# Ignore video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Ignore any large raw file folders
+videos/
+clips/
+raw/

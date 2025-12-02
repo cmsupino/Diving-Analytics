@@ -1,10 +1,23 @@
-## Final Project:PCC Model Diving
+## Christina Supino 40298851
+## Final Project:PCC Model Diving:MAST 397 
 
 
 ## About 
 PCC Model creation and analysis of Olympic Style Diving at the FINA 2022 Preliminary 1m Girls Spring Board Event.
 
-## Christina Supino 40298851
+## Breakdown of .csv files contents:
+Original Data Set: divingdata.csv
+
+Manually made dataset for video clips:DIVE_TIMESTAMPS.csv
+
+Data set containing phase time intervals: DIVE_PHASES.csv
+
+Data set containing pose-extraction using MediaPipe Pose:DIVE_KEYPOINTS.csv
+
+Final scaled dataset with PCC and Official Point: df_merged_scaled.csv
+
+## How to run Notebooks
+
 
 ## Resources Used:
 

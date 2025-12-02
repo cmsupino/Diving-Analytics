@@ -5,6 +5,15 @@
 ## About 
 PCC Model creation and analysis of Olympic Style Diving at the FINA 2022 Preliminary 1m Girls Spring Board Event.
 
+The PCC model analyzes diving performance using computer-vision pose estimation (MediaPipe) and statistical evaluation.  It extracts joint coordinates from diving videos, computes biomechanical metrics , and compares them with official judge scores.
+
+**Note:** The original video files used to generate keypoint data are **not included**.  
+
+All analysis can be performed directly using the provided CSV files.
+
+
+
+
 ## Breakdown of .csv files contents:
 Original Data Set: divingdata.csv
 
@@ -16,8 +25,12 @@ Data set containing pose-extraction using MediaPipe Pose:DIVE_KEYPOINTS.csv
 
 Final scaled dataset with PCC and Official Point: df_merged_scaled.csv
 
-## How to run Notebooks
-
+## How to run Notebooks (Excluding ClipAndFrameCreation.ipynb):
+1. **Prepare the data:** The repository includes all CSV files needed for analysis. Videos are not required.  
+2. **Install dependencies:** Use Python 3.8+ and install all required libraries listed in `requirements.txt`.  
+3. **Run the analysis:**  
+   Notebook(PCC_Score.ipynb) will read the CSVs, compute pose-consistency metrics, and generate statistical results.  
+4. **Visualize results:** The notebook (Visuals_PCC.ipynb) generate plots comparing PCC to judge scores and other performance metrics.  
 
 ## Resources Used:
 

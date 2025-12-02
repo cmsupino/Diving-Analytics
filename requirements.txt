@@ -1,7 +1,5 @@
 numpy
 pandas
-opencv-python
-mediapipe
 matplotlib
 seaborn
 scikit-learn
